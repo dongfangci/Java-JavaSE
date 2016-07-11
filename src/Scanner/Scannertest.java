@@ -58,8 +58,16 @@ public class Scannertest {
 	        System.out.println("Your index:\t" + index);
 	        System.out.println("Your sentence:\t" + s2);
 	}
+	public static void test3(){
+		 Scanner sc = new Scanner(System.in);
+		 while(sc.hasNext()){
+			 StringBuffer sb = new StringBuffer(sc.nextLine());
+			 System.out.println(sb);
+		 }
+	}
 	public static void main(String[] args) {
 		//test1();
 		test2();
+		//test3();
 	}
 }
