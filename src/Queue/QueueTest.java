@@ -15,6 +15,7 @@ class QueueTest {
         while (! fifo.isEmpty())
             System.out.print (fifo.remove());
         System.out.println();
+        System.out.println();
     }
 }
 
